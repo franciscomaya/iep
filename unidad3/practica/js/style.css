@@ -29,25 +29,22 @@ html{
 * Styles for the puzzle
 */
 #body{
+	background-image: url('../und1_actLud_Sopa_back.svg');
     width: 100%;
 }
 #juego {
-    booth:clear;
     border:  2px solid black;
-    padding: 2px;
     float: right;
-   margin: 30px;
-   
+	margin: 35px 30px 0 0;
 }
 #preguntas {
     booth:clear;
     border: solid black;
-    width: 400px;
-    padding: 8px;
+    width: 440px;
     float: left;
-    margin: 10px 10px;
-    font: 0.75em sans-serif;;
-    background:darksalmon;
+    margin: 0 0 0 12px;
+    font: 0.75em sans-serif;
+    background-color: #efefef;
 }
 #juego div {
     width: 100%;
@@ -133,19 +130,75 @@ h2,h3{
 /* indicates that the word has been found */
 #Palabras .wordFound {
     text-decoration: line-through;
-    color: gray;
+    color: #000000;
 }
 #p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,#p10{
-    color:lemonchiffon;
+    color: #000000;
     font-weight: bold;
 }
 #p1 .encontrada,#p2 .encontrada,#p3 .encontrada,#p4 .encontrada,#p5 .encontrada,#p6 .encontrada,#p7 .encontrada,#p8 .encontrada,#p9 .encontrada,#p10 .encontrada{
     font-size: 0.8em;
-    font-weight: bold;
+    font-weight: bold italic;
 }
 /**
 * Styles for the button
 */
 #solve {
     margin: 0px;
+}
+
+div .arribadetodo{
+	width: 90px;
+	height: 41px;
+	float: right;
+	position: relative;
+	z-index: 999;
+}
+
+div .fixed {
+	width: 41px;
+	height: 41px;
+	float: right;
+    position: relative;
+	background-repeat: no-repeat;
+    top: 5px;
+	right: 5px;
+	text-align: right;
+    background-image: url('../btn_cerrar.png');
+}
+
+div .fixed:hover {
+	width: 41px;
+	height: 41px;
+    position: relative;
+	background-repeat: no-repeat;
+    top: 5px;
+	right: 5px;
+	text-align: right;
+    background-image: url('../btn_cerrar_hover.png');
+}
+
+div .fixed2 {
+	width: 41px;
+	height: 41px;
+	float: right;
+    position: relative;
+	background-repeat: no-repeat;
+    top: 5px;
+	right: 5px;
+	text-align: right;
+    background-image: url('../btn_interactuar.png');
+	margin-right: 5px;
+}
+
+div .fixed2:hover {
+	width: 41px;
+	height: 41px;
+    position: relative;
+	background-repeat: no-repeat;
+    top: 5px;
+	right: 5px;
+	text-align: right;
+    background-image: url('../btn_interactuar_hover.png');
+	margin-right: 5px;
 }
