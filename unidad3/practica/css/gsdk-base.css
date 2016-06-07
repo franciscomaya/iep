@@ -1,0 +1,37 @@
+
+.btn{
+    border-width: 0px;
+    background-color: rgba(0,0,0,.0);
+    font-weight: 400;
+    opacity: 0.8;
+    padding: 8px 16px;
+}
+
+.btn:hover{
+    background-color: rgba(0,0,0,.0);
+    opacity: 1;
+}
+
+
+
+#ventanains
+{
+    min-height: 10px;
+    padding: 10px;
+    border-bottom: 0px solid #e5e5e5;
+    height:60px;
+}
+
+#ventanins2
+{
+    min-height: 0px;
+    padding: 0px;
+  
+
+}
+
+
+
+ 
+
+
