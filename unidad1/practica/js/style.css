@@ -1,0 +1,175 @@
+/**
+* Wordfind.js 0.0.1
+* (c) 2012 Bill, BunKat LLC.
+* Wordfind is freely distributable under the MIT license.
+* For all details and documentation:
+*     http://github.com/bunkat/wordfind
+*/
+html{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+#body{
+    width: 1000px;
+    height: 450px;
+    margin: auto;  
+    background: #F2F2F2;
+    background-image: url('../img/general/gen_fondo.svg') !important;
+}
+p {
+    font: 22pt sans-serif;
+    margin: 20px 20px 0px 20px;
+}
+
+/**
+* Styles for the puzzle
+*/
+#body{
+    width: 100%;
+}
+#juego {
+    border: 0px solid black;
+    padding: 5px;
+    float: left;
+    margin: 10px 10px;
+    
+
+}
+
+
+#preguntas {
+    booth:clear;
+    border: 0px solid black;
+    width: 550px;
+    padding: 5px;
+    float: right;
+    margin: 10px 10px;
+    /*font: 0.7em sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    color: #202020;
+    font-size: 11px;
+    
+}
+#juego div {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+/* style for each square in the puzzle */
+#juego .puzzleSquare {
+    height: 20px;
+    width: 20px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 0;
+    font: 0.7em sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #202020;
+    font-size: 12px;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+/* indicates when a square has been selected */
+#juego .selected {
+    /*background-color: black; edwnar*/
+    //background-color: #D8CEF6;
+    border: 1px red solid;
+}
+
+/* indicates that the square is part of a word that has been found */ 
+#juego .found {
+    /*background-color: blue;edwbar*/
+    background-color: #A9A9F5;
+    color: white; 
+}
+
+#juego .solved {
+    background-color: purple;
+    color: white;
+}
+
+#instru{
+    background-color: transparent;
+    color: transparent;
+    border:0px;
+}
+#counter{
+    text-align: center;
+}
+table{
+ text-align: center;
+ margin: auto;
+}
+#resultado{
+    text-align: center;
+    color: red;
+    font-size: 1.5em;
+}
+/* indicates that all words have been found */
+#juego .complete {
+    /*background-color: green;edwnar*/
+    background-color: #A9F5A9;
+
+}
+h2,h3{
+    text-align: right;
+    font-family: 'Chewy';
+    color: #f8a724 ;
+    font-size: 12px;
+}
+/**
+* Styles for the word list
+*/
+#Palabras {
+    padding-top: 20px;
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    width: 300px;
+}
+
+#Palabras ul {
+    list-style-type: none;
+}
+
+#Palabras li {
+    padding: 3px 0;
+    font: 1em sans-serif;
+}
+
+/* indicates that the word has been found */
+#Palabras .wordFound {
+    text-decoration: line-through;
+    color: gray;
+}
+#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,#p10{
+    color: black;
+    font-weight: bold;
+}
+#p1 .encontrada,#p2 .encontrada,#p3 .encontrada,#p4 .encontrada,#p5 .encontrada,#p6 .encontrada,#p7 .encontrada,#p8 .encontrada,#p9 .encontrada,#p10 .encontrada{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+/**
+* Styles for the button
+*/
+#solve {
+    margin: 0px;
+    
+    border: 0px;
+
+}
+#nuevo {
+    margin: 0px;
+    
+    border: 0px;
+
+}
