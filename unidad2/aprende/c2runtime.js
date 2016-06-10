@@ -20602,8 +20602,8 @@ cr.behaviors.Fade = function(runtime)
 	behaviorProto.exps = new Exps();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Audio,
 	cr.plugins_.Browser,
+	cr.plugins_.Audio,
 	cr.plugins_.Mouse,
 	cr.plugins_.Sprite,
 	cr.plugins_.TextBox,

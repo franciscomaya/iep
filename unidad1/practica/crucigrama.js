@@ -448,7 +448,7 @@ var CurrentBox = null;
 var Feedback = '';
 var AcrossCaption = '';
 var DownCaption = '';
-var Correct = 'Recuerda!!! <BR> El docente se convierte en el actor principal dentro del  proceso,<BR> y en ese sentido, está en la tarea de profundizar <BR> en la compresión de la ciencia buscando  el sentido de esta y <BR> en como construir el espíritu científico.<BR> Teniendo en cuenta herramientas como: la autoformación,<BR> aprendizaje colaborativo, trabajo autónomo y colectivo,<BR> capacidad de creación e innovación, integrar el conocimiento <BR> con la experiencia pedagógica y la investigación. La creación <BR> de  escenarios de  aprendizaje se convierte en el primer <BR> paso para transformar el que hacer educativo y fomentar <br> la formación de ciudadanos integrales';
+var Correct = 'Felicitaciones!!!<br /> <p> Recuerda que el docente se convierte en el actor principal dentro del  proceso, y en ese sentido, está en la tarea de profundizar en la compresión de la ciencia buscando el sentido de esta y en como construir el espíritu científico.</p><br /> <p>Teniendo en cuenta herramientas como: la autoformación, aprendizaje colaborativo, trabajo autónomo y colectivo, capacidad de creación e innovación, integrar el conocimiento con la experiencia pedagógica y la investigación.</p><br /> <p>La creación de escenarios de aprendizaje se convierte en el primer paso para transformar el que hacer educativo y fomentar la formación de ciudadanos integrales.</p>';
 var Incorrect = 'Algo est&#x00E1; mal... <BR> Revisa tus Respuestas'; 
 var GiveHint = '';
 var YourScoreIs = '';
@@ -546,7 +546,7 @@ function ShowClue(ClueNum,x,y){
 
 function EnterGuess(Across,ClueNum,x,y,BoxId){
 	if (document.getElementById(BoxId) != null){
-		var Guess = document.getElementById(BoxId).value;
+		var Guess = document.getElementById(BoxId).value.toLowerCase();
 		var AnsLength = GetAnswerLength(Across,x,y);
 		EnterAnswer(Guess,Across,AnsLength,x,y);
 	}
