@@ -93,7 +93,7 @@
     <!-- MODAL  instrucciones-->
        <div class="modal fade" id="masterModalins" tabindex="-1" role="dialog" aria-labelledby="masterModalLabel" aria-hidden="true">
             <div class="modal-dialog" id="modalbox2">
-                 <div class="modal-content" id="modalbox2" style="width: 741px; height: 406px; background-image: url('img/SopaLetrasInstrucciones-02.svg');"> 
+                 <div class="modal-content" id="modalbox2" style="width: 667px; height: 366px; background-image: url('img/SopaLetrasInstrucciones-02.svg');"> 
                         <div class="modal-header" id="ventanains">
 							<a href="#" id="btn_close" data-dismiss="modal" aria-hidden="true"><div class="fixed"> &nbsp </div></a>
                          </div> 
@@ -111,8 +111,8 @@
 		function muestra_ayuda(){
 			$("#masterModalins").find('.modal-body').load("instrucciones.php?id=", function()
                  {
-                    $("#modalbox2").css("width", "600px");
-                    $("#modalbox2").css("height", "400px");
+                    $("#modalbox2").css("width", "667px");
+                    $("#modalbox2").css("height", "366px");
                     $("#masterModalins").modal();
                     $("#masterModalLabel").html("Instrucciones");
                 });
