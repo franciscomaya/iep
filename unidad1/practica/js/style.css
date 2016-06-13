@@ -6,13 +6,13 @@
 *     http://github.com/bunkat/wordfind
 */
 html{
-    width: 1000px;
-    height: 500px;
+    width: 800px;
+    height: 600px;
     margin: auto;
 }
 #body{
-    width: 1000px;
-    height: 450px;
+    width: 800px;
+    height: 600px;
     margin: auto;  
     background: #F2F2F2;
     background-image: url('../img/general/gen_fondo.svg') !important;
