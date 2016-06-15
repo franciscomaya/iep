@@ -8,7 +8,7 @@ $con = new conexion();
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Evaluación aprendiendo a conocerme</title>
+        <title>La pregunta, una forma de aprendizaje</title>
         <link rel="icon" type="image/png" href="img/favicon.png" />
         <!-- Bootstrap -->
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -84,6 +84,13 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab1">
                                 <div class="col-lg-10 col-lg-offset-1">
+                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Teniendo en cuenta la siguiente historieta responda las preguntas 1 a 3</strong></label>
+                                    <div class="">
+                                        <img src="img/historieta.gif" alt="" class="img-responsive img-thumbnail">
+                                    </div>
+                                    <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
+									Tomado de:http://proyectomalala.beecocentric.com/wp-content/uploads/2015/04/mafalda3.gif
+                                    </p>
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
                                             <strong>Pregunta 1.</strong> 
@@ -102,16 +109,6 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab2">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Responda las preguntas 2 a 4, de acuerdo con el siguiente texto.</strong></label>
-                                    <p class="text-info text-justify" style="margin-top: 5px;">
-                                        <strong><em>Nelson Mandela</em></strong><br>
-                                        “Diez razones por las que Mandela era un líder” recoge, además de las mencionadas, otras cualidades que suponen una prueba de su indiscutible liderazgo. La paciencia, por ejemplo, para esperar las oportunidades, demostrando visión a largo plazo. Mandela soportó 27 años de duro encierro y tardó cinco años más en ganar las elecciones. Solo entonces levantó los dos puños desafiantes que le convirtieron como el líder no solo de la raza negra, sino de todos los ciudadanos del mundo.<br>
-                                        La capacidad para perdonar, que llevada al ámbito profesional implicaría aceptar los errores ajenos, le proporcionó la fidelidad de aquellos que trabajaban a su lado. Aprendió de los errores y fue cauto y generoso. Además, tenía una excelente habilidad negociadora, lo que le llevaba a alcanzar acuerdos en los que todos sentían que ganaban.
-                                    </p>
-                                    <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Ejemplos de liderazgo. Tres personajes únicos y sus lecciones para el mundo
-                                        http://retos-directivos.eae.es/ejemplos-de-liderazgo-tres-personajes-unicos-y-sus-lecciones-para-el-mundo/
-                                    </p> 
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
                                             <strong>Pregunta 2.</strong> 
@@ -130,16 +127,6 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab3">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Responda las preguntas 2 a 4, de acuerdo con el siguiente texto.</strong></label>
-                                    <p class="text-info text-justify" style="margin-top: 5px;">
-                                        <strong><em>Nelson Mandela</em></strong><br>
-                                        “Diez razones por las que Mandela era un líder” recoge, además de las mencionadas, otras cualidades que suponen una prueba de su indiscutible liderazgo. La paciencia, por ejemplo, para esperar las oportunidades, demostrando visión a largo plazo. Mandela soportó 27 años de duro encierro y tardó cinco años más en ganar las elecciones. Solo entonces levantó los dos puños desafiantes que le convirtieron como el líder no solo de la raza negra, sino de todos los ciudadanos del mundo.<br>
-                                        La capacidad para perdonar, que llevada al ámbito profesional implicaría aceptar los errores ajenos, le proporcionó la fidelidad de aquellos que trabajaban a su lado. Aprendió de los errores y fue cauto y generoso. Además, tenía una excelente habilidad negociadora, lo que le llevaba a alcanzar acuerdos en los que todos sentían que ganaban.
-                                    </p>
-                                    <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Ejemplos de liderazgo. Tres personajes únicos y sus lecciones para el mundo
-                                        http://retos-directivos.eae.es/ejemplos-de-liderazgo-tres-personajes-unicos-y-sus-lecciones-para-el-mundo/
-                                    </p> 
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
                                             <strong>Pregunta 3.</strong> 
@@ -158,15 +145,17 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab4">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Responda las preguntas 2 a 4, de acuerdo con el siguiente texto.</strong></label>
+                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Responda las preguntas 4 a 6, teniendo en cuenta el siguiente texto.</strong></label><br />
                                     <p class="text-info text-justify" style="margin-top: 5px;">
-                                        <strong><em>Nelson Mandela</em></strong><br>
-                                        “Diez razones por las que Mandela era un líder” recoge, además de las mencionadas, otras cualidades que suponen una prueba de su indiscutible liderazgo. La paciencia, por ejemplo, para esperar las oportunidades, demostrando visión a largo plazo. Mandela soportó 27 años de duro encierro y tardó cinco años más en ganar las elecciones. Solo entonces levantó los dos puños desafiantes que le convirtieron como el líder no solo de la raza negra, sino de todos los ciudadanos del mundo.<br>
-                                        La capacidad para perdonar, que llevada al ámbito profesional implicaría aceptar los errores ajenos, le proporcionó la fidelidad de aquellos que trabajaban a su lado. Aprendió de los errores y fue cauto y generoso. Además, tenía una excelente habilidad negociadora, lo que le llevaba a alcanzar acuerdos en los que todos sentían que ganaban.
+                                        <p><strong><em>Curiosidad, Primer Paso Hacia el Aprendizaje</em></strong><br />
+                                        Es claro que los niños son inquietos por naturaleza, siempre están observando todo y preguntando por todo. Muchas veces consideramos que esta actitud es algo inoportuna y hasta inapropiada, por tanto lo vemos como algo negativo y no nos damos cuenta, que es a partir de este deseo del niño por saber TODO que podemos iniciar el proceso de aprendizaje.</p>
+<p>Si observamos el desarrollo de un niño podemos notar que el primer indicio de curiosidad es el deseo de ver todo lo que lo rodea, luego, cuando es capaz de desplazarse busca acercarse a los objetos y agarrarlos para manipularlos para conocerlos. Más adelante, cuando ya ha conocido su medio y las características de cada uno de los elementos, comienza a observar lo que sucede cuando junta dos elementos. Todo este proceso brinda valiosa información al niño que será de gran utilidad en sus aprendizajes futuros.</p>
+<p>La curiosidad proporciona al niño el interés necesario para querer aprender, es indispensable para desarrollar un pensamiento científico, porque cuando al niño le agrada algo le será más fácil aprenderlo.</p>
+<p>Al niño todo le produce curiosidad: los cambios de clima, las enfermedades, las acciones de los demás, etc. Son pequeños observadores con ansias de conocimiento y somos los adultos los encargados de lograr que este interés no se pierda, sino por el contrario, que sea cada vez mayor.</p>
+
                                     </p>
                                     <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Ejemplos de liderazgo. Tres personajes únicos y sus lecciones para el mundo
-                                        http://retos-directivos.eae.es/ejemplos-de-liderazgo-tres-personajes-unicos-y-sus-lecciones-para-el-mundo/
+                                        Tomado de: Maestra Kiddys. Momento educativo. Curiosidad el primer paso hacia el aprendizaje. http://app.kiddyshouse.com/maestra/articulos/curiosidad-primer-paso-hacia-el-aprendizaje.php
                                     </p>    
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
@@ -186,6 +175,12 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab5">
                                 <div class="col-lg-10 col-lg-offset-1">
+								    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong></strong></label><br />
+                                    <p class="text-info text-justify" style="margin-top: 5px;">
+                                        <p><strong><em></em></strong><br />
+                                        A través de la curiosidad, el niño desarrolla la capacidad de observación, propicia la formulación de preguntas y el planteamiento de hipótesis sencillas, motiva la manipulación de diferentes elementos, lleva a probar cosas nuevas y por tanto a aprender a través del ensayo y error.</p>
+                                    <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
+                                    </p>    
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
                                             <strong>Pregunta 5.</strong> 
@@ -203,13 +198,6 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab6">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Teniendo en cuenta la historieta, responda las preguntas 6  a 8</strong></label>
-                                    <div class="text-center">
-                                        <img src="img/historieta.jpg" alt="Historieta" class="img-responsive img-thumbnail">
-                                    </div>
-                                    <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Quino
-                                    </p>
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
                                             <strong>Pregunta 6.</strong> 
@@ -227,13 +215,6 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab7">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Teniendo en cuenta la historieta, responda las preguntas 6  a 8</strong></label>
-                                    <div class="text-center">
-                                        <img src="img/historieta.jpg" alt="Historieta" class="img-responsive img-thumbnail">
-                                    </div>
-                                    <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Quino
-                                    </p>
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
                                             <strong>Pregunta 7.</strong> 
@@ -251,13 +232,6 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab8">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Teniendo en cuenta la historieta, responda las preguntas 6  a 8</strong></label>
-                                    <div class="text-center">
-                                        <img src="img/historieta.jpg" alt="Historieta" class="img-responsive img-thumbnail">
-                                    </div>
-                                    <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Quino
-                                    </p>
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
                                             <strong>Pregunta 8.</strong> 
@@ -275,17 +249,13 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab9">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Responda las preguntas 9 y 10, de acuerdo con el siguiente texto.</strong></label>
                                     <p class="text-info text-justify" style="margin-top: 5px;">
-                                        <strong><em>Martin Luther King</em></strong><br>
-                                        Las lecciones de este líder que transformó América siguen aún vigentes. Tres son las principales que se destacan en el artículo “Lecciones de <em>Martin Luther King</em>” y que se han convertido en un manual a seguir por todos aquellos que tienen la aspiración de convertirse en grandes líderes.  <br>
-                                        En primer lugar, demostrar el compromiso total hacia una causa es esencial para lograr el éxito en ella. Los sacrificios que supone tanto a nivel personal como profesional este compromiso con la causa muchas veces no son fáciles de asumir, lo cual es una de las razones por las que los profesionales fracasan.<br>
-                                        La segunda lección está relacionada con innovar, romper las creencias establecidas como base para lograr un cambio. Muchas veces implica tomar medidas que son impopulares, pues la resistencia al cambio es un elemento común en las organizaciones. Sin embargo, cuestionarse el porqué de lo que hacemos y hacer las cosas de forma diferente es necesario para evolucionar y crecer.<br>
-                                        La comunicación fue la tercera de sus virtudes. Tenía un sueño, pero no habría podido hacerlo realidad si no lo hubiera comunicado a todas las personas que tenía a su alrededor.
+                                        <strong><em>Las preguntas iniciales o espontáneas  de niñas, niños y jóvenes</em></strong><br />
+                                        <p>Los estudiantes tienen una gran capacidad para hacerse preguntas y no lo hacen tan sólo para conocer el mundo, sino que en medio de este ejercicio generan un proceso de autoconstrucción de sus ideas y conceptos fundamentales y estructurales para relacionarse con la sociedad y la naturaleza. </p>
+<p>Una niña(o), o joven que no investiga es muy probable que asimile los conocimientos de manera mecánica. Como consecuencia de ello, sus explicaciones y, por tanto, sus acciones serán las mismas que el sentido común ha formado en él o ella durante su vida.</p>
                                     </p>
                                     <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Ejemplos de liderazgo. Tres personajes únicos y sus lecciones para el mundo
-                                        http://retos-directivos.eae.es/ejemplos-de-liderazgo-tres-personajes-unicos-y-sus-lecciones-para-el-mundo/
+                                        Tomado de: Colciencias. Programa Ondas. Caja de herramientas. La pregunta como punto de partida.
 
                                     </p>   
                                     <div class="panel panel-default" style="margin-top: 15px;">
@@ -305,19 +275,12 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab10">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Responda las preguntas 9 y 10, de acuerdo con el siguiente texto.</strong></label>
-                                    <p class="text-info text-justify" style="margin-top: 5px;">
-                                        <strong><em>Martin Luther King</em></strong><br>
-                                        Las lecciones de este líder que transformó América siguen aún vigentes. Tres son las principales que se destacan en el artículo “Lecciones de <em>Martin Luther King</em>” y que se han convertido en un manual a seguir por todos aquellos que tienen la aspiración de convertirse en grandes líderes.  <br>
-                                        En primer lugar, demostrar el compromiso total hacia una causa es esencial para lograr el éxito en ella. Los sacrificios que supone tanto a nivel personal como profesional este compromiso con la causa muchas veces no son fáciles de asumir, lo cual es una de las razones por las que los profesionales fracasan.<br>
-                                        La segunda lección está relacionada con innovar, romper las creencias establecidas como base para lograr un cambio. Muchas veces implica tomar medidas que son impopulares, pues la resistencia al cambio es un elemento común en las organizaciones. Sin embargo, cuestionarse el porqué de lo que hacemos y hacer las cosas de forma diferente es necesario para evolucionar y crecer.<br>
-                                        La comunicación fue la tercera de sus virtudes. Tenía un sueño, pero no habría podido hacerlo realidad si no lo hubiera comunicado a todas las personas que tenía a su alrededor.
+								    <p class="text-info text-justify" style="margin-top: 5px;">
+                                        <strong><em>¿Cómo llegan niñas, niños y jóvenes a las respuestas de lo que se preguntan?</em></strong><br />
+                                        <p>El conocimiento y el saber a los cuales llegan los niños (as) y jóvenes en el Programa Ondas son resultado de la implementación de su estrategia pedagógica, con las variantes que introducen los acompañantes adultos o los mismos grupos de investigación. Así, se constituye el reto para el maestro y la maestra de convertir este proceso en su objeto de sistematización.</p>
                                     </p>
                                     <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Ejemplos de liderazgo. Tres personajes únicos y sus lecciones para el mundo
-                                        http://retos-directivos.eae.es/ejemplos-de-liderazgo-tres-personajes-unicos-y-sus-lecciones-para-el-mundo/
-
-                                    </p>
+                                    </p>   
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
                                             <strong>Pregunta 10.</strong> 

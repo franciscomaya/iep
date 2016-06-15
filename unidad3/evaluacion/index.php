@@ -8,7 +8,7 @@ $con = new conexion();
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Evaluación aprendiendo a conocerme</title>
+        <title>De la teoría a la práctica</title>
         <link rel="icon" type="image/png" href="img/favicon.png" />
         <!-- Bootstrap -->
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -84,6 +84,17 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab1">
                                 <div class="col-lg-10 col-lg-offset-1">
+                                    <p class="text-info text-justify" style="margin-top: 5px;">
+                                        <strong><em>La investigación en Ondas</em></strong><br>
+                                        Se entiende como “una actividad propia del ser humano, posible de desarrollar en todas las áreas de conocimiento y con niños y niñas muy pequeñas. También es entendida como un proceso de desciframiento de la condición humana a partir de la experiencia de vida de esta población en los contextos escolares, familiares y comunitarios”<sup>1</sup> (…) como “un proceso de desciframiento de la realidad a partir de su problematización, la cual es el referente sobre el que los niños y jóvenes se interrogan y se organizan para transitar diferentes trayectorias que les permiten comprender las problemáticas de interés común y construir respuestas a sus problemas de investigación”. 
+
+                                    </p>
+									<p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
+                                        1 Colciencias, Caja de Herramientas, Ondas de ciencia y tecnología, Investigar desde la escuela, Herramienta 1, página 1. Trayectorias que les permiten comprender las problemáticas de interés común y construir respuestas a sus problemas de investigación”
+                                    </p>
+                                    <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
+                                        Véase Urrego, Laura, La investigación como estrategia pedagógica: propuesta del Programa Ondas, 2006, [documento en línea] www.eleducador.com/pragma/documenta/ documentos/84571/información
+                                    </p>
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
                                             <strong>Pregunta 1.</strong> 
@@ -102,16 +113,6 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab2">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Responda las preguntas 2 a 4, de acuerdo con el siguiente texto.</strong></label>
-                                    <p class="text-info text-justify" style="margin-top: 5px;">
-                                        <strong><em>Nelson Mandela</em></strong><br>
-                                        “Diez razones por las que Mandela era un líder” recoge, además de las mencionadas, otras cualidades que suponen una prueba de su indiscutible liderazgo. La paciencia, por ejemplo, para esperar las oportunidades, demostrando visión a largo plazo. Mandela soportó 27 años de duro encierro y tardó cinco años más en ganar las elecciones. Solo entonces levantó los dos puños desafiantes que le convirtieron como el líder no solo de la raza negra, sino de todos los ciudadanos del mundo.<br>
-                                        La capacidad para perdonar, que llevada al ámbito profesional implicaría aceptar los errores ajenos, le proporcionó la fidelidad de aquellos que trabajaban a su lado. Aprendió de los errores y fue cauto y generoso. Además, tenía una excelente habilidad negociadora, lo que le llevaba a alcanzar acuerdos en los que todos sentían que ganaban.
-                                    </p>
-                                    <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Ejemplos de liderazgo. Tres personajes únicos y sus lecciones para el mundo
-                                        http://retos-directivos.eae.es/ejemplos-de-liderazgo-tres-personajes-unicos-y-sus-lecciones-para-el-mundo/
-                                    </p> 
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
                                             <strong>Pregunta 2.</strong> 
@@ -130,16 +131,6 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab3">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Responda las preguntas 2 a 4, de acuerdo con el siguiente texto.</strong></label>
-                                    <p class="text-info text-justify" style="margin-top: 5px;">
-                                        <strong><em>Nelson Mandela</em></strong><br>
-                                        “Diez razones por las que Mandela era un líder” recoge, además de las mencionadas, otras cualidades que suponen una prueba de su indiscutible liderazgo. La paciencia, por ejemplo, para esperar las oportunidades, demostrando visión a largo plazo. Mandela soportó 27 años de duro encierro y tardó cinco años más en ganar las elecciones. Solo entonces levantó los dos puños desafiantes que le convirtieron como el líder no solo de la raza negra, sino de todos los ciudadanos del mundo.<br>
-                                        La capacidad para perdonar, que llevada al ámbito profesional implicaría aceptar los errores ajenos, le proporcionó la fidelidad de aquellos que trabajaban a su lado. Aprendió de los errores y fue cauto y generoso. Además, tenía una excelente habilidad negociadora, lo que le llevaba a alcanzar acuerdos en los que todos sentían que ganaban.
-                                    </p>
-                                    <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Ejemplos de liderazgo. Tres personajes únicos y sus lecciones para el mundo
-                                        http://retos-directivos.eae.es/ejemplos-de-liderazgo-tres-personajes-unicos-y-sus-lecciones-para-el-mundo/
-                                    </p> 
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
                                             <strong>Pregunta 3.</strong> 
@@ -158,15 +149,13 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab4">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Responda las preguntas 2 a 4, de acuerdo con el siguiente texto.</strong></label>
+                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Responda las preguntas 4 y 5, de acuerdo a la siguiente información.</strong></label>
                                     <p class="text-info text-justify" style="margin-top: 5px;">
-                                        <strong><em>Nelson Mandela</em></strong><br>
-                                        “Diez razones por las que Mandela era un líder” recoge, además de las mencionadas, otras cualidades que suponen una prueba de su indiscutible liderazgo. La paciencia, por ejemplo, para esperar las oportunidades, demostrando visión a largo plazo. Mandela soportó 27 años de duro encierro y tardó cinco años más en ganar las elecciones. Solo entonces levantó los dos puños desafiantes que le convirtieron como el líder no solo de la raza negra, sino de todos los ciudadanos del mundo.<br>
-                                        La capacidad para perdonar, que llevada al ámbito profesional implicaría aceptar los errores ajenos, le proporcionó la fidelidad de aquellos que trabajaban a su lado. Aprendió de los errores y fue cauto y generoso. Además, tenía una excelente habilidad negociadora, lo que le llevaba a alcanzar acuerdos en los que todos sentían que ganaban.
+                                        <strong><em></em></strong><br>
+                                        La estructura educativa que tenemos hoy en día es precaria para enfrentar los retos que las aulas presentan hoy en  día. Tal parece ser que se está educando como en el siglo XIX a estudiantes del siglo XXI. Sin embargo, también están quiénes estudian y ponen en práctica distintas formas de hacer más atractiva el aula y de enseñar: desde el arte, la tecnología, la organización o la gestión, y la pedagogía; las opiniones de los diferentes especialistas, como también de ciertos programas recientemente creados, hablan de una educación innovadora y creativa que está surgiendo y afianzándose.
                                     </p>
                                     <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Ejemplos de liderazgo. Tres personajes únicos y sus lecciones para el mundo
-                                        http://retos-directivos.eae.es/ejemplos-de-liderazgo-tres-personajes-unicos-y-sus-lecciones-para-el-mundo/
+                                        Tomado de: ¿De qué manera se puede innovar en la educación? http://noticias.universia.com.ar/actualidad/noticia/2015/03/10/1121158/manera-puede-innovar-educacion.html
                                     </p>    
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
@@ -203,13 +192,6 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab6">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Teniendo en cuenta la historieta, responda las preguntas 6  a 8</strong></label>
-                                    <div class="text-center">
-                                        <img src="img/historieta.jpg" alt="Historieta" class="img-responsive img-thumbnail">
-                                    </div>
-                                    <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Quino
-                                    </p>
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
                                             <strong>Pregunta 6.</strong> 
@@ -227,13 +209,14 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab7">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Teniendo en cuenta la historieta, responda las preguntas 6  a 8</strong></label>
-                                    <div class="text-center">
-                                        <img src="img/historieta.jpg" alt="Historieta" class="img-responsive img-thumbnail">
-                                    </div>
-                                    <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Quino
+								    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong></strong></label>
+                                    <p class="text-info text-justify" style="margin-top: 5px;">
+                                        <strong><em></em></strong><br>
+                                        Aparecen personas provenientes de la neurociencia, medicina, psicología, que proponen hacer un trabajo controlado, y con procedimientos experimentales, para dar cuenta de lo que acontece en el cerebro de las niñas, niños y jóvenes, cuando trabajan con la pregunta y la indagación, en la manera como propone el Programa.
                                     </p>
+                                    <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
+                                        Tomado de: Colciencias. Programa Ondas. Caja de herramientas. El lugar de maestros y maestras en Ondas.
+                                    </p>    
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
                                             <strong>Pregunta 7.</strong> 
@@ -251,12 +234,11 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab8">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Teniendo en cuenta la historieta, responda las preguntas 6  a 8</strong></label>
-                                    <div class="text-center">
-                                        <img src="img/historieta.jpg" alt="Historieta" class="img-responsive img-thumbnail">
+                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Teniendo en cuenta la siguiente imagen, responda</strong></label>
+                                    <div class="">
+                                        <img src="img/innovacion.gif" alt="" class="img-responsive img-thumbnail">
                                     </div>
                                     <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Quino
                                     </p>
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
@@ -275,17 +257,12 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab9">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Responda las preguntas 9 y 10, de acuerdo con el siguiente texto.</strong></label>
                                     <p class="text-info text-justify" style="margin-top: 5px;">
-                                        <strong><em>Martin Luther King</em></strong><br>
-                                        Las lecciones de este líder que transformó América siguen aún vigentes. Tres son las principales que se destacan en el artículo “Lecciones de <em>Martin Luther King</em>” y que se han convertido en un manual a seguir por todos aquellos que tienen la aspiración de convertirse en grandes líderes.  <br>
-                                        En primer lugar, demostrar el compromiso total hacia una causa es esencial para lograr el éxito en ella. Los sacrificios que supone tanto a nivel personal como profesional este compromiso con la causa muchas veces no son fáciles de asumir, lo cual es una de las razones por las que los profesionales fracasan.<br>
-                                        La segunda lección está relacionada con innovar, romper las creencias establecidas como base para lograr un cambio. Muchas veces implica tomar medidas que son impopulares, pues la resistencia al cambio es un elemento común en las organizaciones. Sin embargo, cuestionarse el porqué de lo que hacemos y hacer las cosas de forma diferente es necesario para evolucionar y crecer.<br>
-                                        La comunicación fue la tercera de sus virtudes. Tenía un sueño, pero no habría podido hacerlo realidad si no lo hubiera comunicado a todas las personas que tenía a su alrededor.
+                                        <strong><em>Educar con Cerebro</em></strong><br>
+                                        Repetir y repetir datos hasta memorizarlos no es el mejor camino para aprender. Los estudios científicos demuestran que la emoción, el deporte, la sorpresa y la experimentación son algunos de los ingredientes necesarios para sumar conocimiento.
                                     </p>
                                     <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Ejemplos de liderazgo. Tres personajes únicos y sus lecciones para el mundo
-                                        http://retos-directivos.eae.es/ejemplos-de-liderazgo-tres-personajes-unicos-y-sus-lecciones-para-el-mundo/
+                                        Fuente: Neuroeducación. Cristina Sáez.
 
                                     </p>   
                                     <div class="panel panel-default" style="margin-top: 15px;">
@@ -305,19 +282,6 @@ $con = new conexion();
                             </div>
                             <div class="tab-pane" id="tab10">
                                 <div class="col-lg-10 col-lg-offset-1">
-                                    <label class="text-info" style="margin-top: 15px; font-size: 1.2em;"><strong>Responda las preguntas 9 y 10, de acuerdo con el siguiente texto.</strong></label>
-                                    <p class="text-info text-justify" style="margin-top: 5px;">
-                                        <strong><em>Martin Luther King</em></strong><br>
-                                        Las lecciones de este líder que transformó América siguen aún vigentes. Tres son las principales que se destacan en el artículo “Lecciones de <em>Martin Luther King</em>” y que se han convertido en un manual a seguir por todos aquellos que tienen la aspiración de convertirse en grandes líderes.  <br>
-                                        En primer lugar, demostrar el compromiso total hacia una causa es esencial para lograr el éxito en ella. Los sacrificios que supone tanto a nivel personal como profesional este compromiso con la causa muchas veces no son fáciles de asumir, lo cual es una de las razones por las que los profesionales fracasan.<br>
-                                        La segunda lección está relacionada con innovar, romper las creencias establecidas como base para lograr un cambio. Muchas veces implica tomar medidas que son impopulares, pues la resistencia al cambio es un elemento común en las organizaciones. Sin embargo, cuestionarse el porqué de lo que hacemos y hacer las cosas de forma diferente es necesario para evolucionar y crecer.<br>
-                                        La comunicación fue la tercera de sus virtudes. Tenía un sueño, pero no habría podido hacerlo realidad si no lo hubiera comunicado a todas las personas que tenía a su alrededor.
-                                    </p>
-                                    <p class="text-danger text-justify" style="margin-top: 5px; font-size: 0.8em;">
-                                        Fuente: Ejemplos de liderazgo. Tres personajes únicos y sus lecciones para el mundo
-                                        http://retos-directivos.eae.es/ejemplos-de-liderazgo-tres-personajes-unicos-y-sus-lecciones-para-el-mundo/
-
-                                    </p>
                                     <div class="panel panel-default" style="margin-top: 15px;">
                                         <div class="panel-heading">
                                             <strong>Pregunta 10.</strong> 
