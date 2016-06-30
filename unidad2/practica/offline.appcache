@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1465507891
+#1467253107
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -29,6 +29,8 @@ images/t14-sheet0.png
 images/transparente1-sheet0.png
 images/cerrargeneral-sheet0.png
 images/cerrargeneral-sheet1.png
+images/btn_interactuar-sheet0.png
+images/btn_interactuar-sheet1.png
 icon-16.png
 icon-32.png
 icon-114.png
