@@ -29,16 +29,16 @@ html{
 * Styles for the puzzle
 */
 #body{
-	background-image: url('../und1_actLud_Sopa_back.svg');
+	background-image: url('../fondo01-sheet0.png');
     width: 100%;
 }
 #juego {
-    border:  2px solid black;
+    border:  2px solid grey;
     float: right;
 	margin: 35px 15px 0 0;
 }
 #preguntas {
-    border: solid black;
+    border: none;
     width: 400px;
     float: left;
     margin: 0 0 0 8px;
@@ -52,12 +52,13 @@ html{
 
 /* style for each square in the puzzle */
 #juego .puzzleSquare {
-    height: 20px;
-    width: 23px;
+    height: 19px;
+    width: 22px;
     text-transform: uppercase;
     background-color: white;
-    border: 1;
+    border: none;
     font: 0.6em sans-serif;
+	margin: 0px 1px 0px 1px;
 }
 
 button::-moz-focus-inner {
