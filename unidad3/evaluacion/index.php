@@ -487,15 +487,15 @@ $con = new conexion();
 						$('#tabl10').css("display", "block");
                     }
                 }
-                if (index == 11) {
-                    if (res11 == 0) {
-                        respuestas = respuestas + 1;
-                        res11 = 1;
-                        porcentaje = porcentaje + 9.09;
-                        $('#rootwizard').find('.progress-bar').css({width: porcentaje + '%'});
-                    }
+                //if (index == 11) {
+                //    if (res11 == 0) {
+                //        respuestas = respuestas + 1;
+                //        res11 = 1;
+                //        porcentaje = porcentaje + 9.09;
+                //        $('#rootwizard').find('.progress-bar').css({width: porcentaje + '%'});
+                //    }
                     //alert(respuestas);
-                }
+                //}
                 //alert(respuestas);
 
 
