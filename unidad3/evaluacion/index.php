@@ -38,22 +38,21 @@ $con = new conexion();
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="#">Evaluación</a>
                             </div>
                             <div class="navbar-default">
                                 <div class="container">
                                     <ul>
                                         <li><a href="#tabd" data-toggle="tab">Datos usuario</a></li>
-                                        <li><a href="#tab1" data-toggle="tab">1</a></li>
-                                        <li><a href="#tab2" data-toggle="tab">2</a></li>
-                                        <li><a href="#tab3" data-toggle="tab">3</a></li>
-                                        <li><a href="#tab4" data-toggle="tab">4</a></li>
-                                        <li><a href="#tab5" data-toggle="tab">5</a></li>
-                                        <li><a href="#tab6" data-toggle="tab">6</a></li>
-                                        <li><a href="#tab7" data-toggle="tab">7</a></li>
-                                        <li><a href="#tab8" data-toggle="tab">8</a></li>
-                                        <li><a href="#tab9" data-toggle="tab">9</a></li>
-                                        <li><a href="#tab10" data-toggle="tab">10</a></li>
+                                        <li><a href="#tab1" data-toggle="tab" style="display:none;" id="tabl1">1</a></li>
+                                        <li><a href="#tab2" data-toggle="tab" style="display:none;" id="tabl2">2</a></li>
+                                        <li><a href="#tab3" data-toggle="tab" style="display:none;" id="tabl3">3</a></li>
+                                        <li><a href="#tab4" data-toggle="tab" style="display:none;" id="tabl4">4</a></li>
+                                        <li><a href="#tab5" data-toggle="tab" style="display:none;" id="tabl5">5</a></li>
+                                        <li><a href="#tab6" data-toggle="tab" style="display:none;" id="tabl6">6</a></li>
+                                        <li><a href="#tab7" data-toggle="tab" style="display:none;" id="tabl7">7</a></li>
+                                        <li><a href="#tab8" data-toggle="tab" style="display:none;" id="tabl8">8</a></li>
+                                        <li><a href="#tab9" data-toggle="tab" style="display:none;" id="tabl9">9</a></li>
+                                        <li><a href="#tab10" data-toggle="tab" style="display:none;" id="tabl10">10</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -67,15 +66,15 @@ $con = new conexion();
                                         </div>
                                         <div class="panel-body">
                                             <div class="col-lg-6">
-                                                <label for="nombres">Nombres</label>
+                                                <label for="nombres">Nombres<span style="color:red;"> *</span></label>
                                                 <input class="form-control" type='text' name='nombres' id='nombres' placeholder='Ingresa tus nombres' tabindex="1">
-                                                <label for="apellidos">Apellidos</label>
+                                                <label for="apellidos">Apellidos<span style="color:red;"> *</span></label>
                                                 <input class="form-control" type='text' name='apellidos' id='apellidos' placeholder='Ingresa tus apellidos'  tabindex="2">
                                             </div>
                                             <div class="col-lg-6">
-                                                <label for="identificacion">Identificación</label>
+                                                <label for="identificacion">Identificación<span style="color:red;"> *</span></label>
                                                 <input class="form-control" type='text' name='identificacion' id='identificacion' placeholder='Ingresa tu numero de identificación' tabindex="3">
-                                                <label for="institucion">Institución</label>
+                                                <label for="institucion">Institución<span style="color:red;"> *</span></label>
                                                 <input class="form-control" type='text' name='institucion' id='institucion' placeholder='Ingresa tu institución a la que perteneces'  tabindex="4">  
                                             </div>
                                         </div>
@@ -299,14 +298,14 @@ $con = new conexion();
                             </div>
                             <div class="col-lg-12">
                                 <ul class="pager wizard">
-                                    <li class="previous first"><a href="javascript:;">Primero</a></li>
+                                    <!--<li class="previous first"><a href="javascript:;">Primero</a></li>-->
                                     <li class="previous"><a href="javascript:;">Anterior</a></li>
-                                    <li class="next last"><a href="javascript:;">Ultimo</a></li>
+                                    <!--<li class="next last"><a href="javascript:;">Ultimo</a></li>-->
                                     <li class="next"><a href="javascript:;">Siguiente</a></li>
                                     <!--<li class="next finish" style="display:none;"><a href="javascript:;">Evaluar</a></li>-->
-                                    <li class="fin" style="display: none; float: right;">
+                                    <li class="fin" style="display: none;">
                                         <!--<input type="submit" name="enviar" id="enviar" value="Evaluar">-->
-                                        <a href="javascript:;">Evaluar</a>
+                                    <a href="javascript:;">Evaluar</a>
                                     </li>
                                 </ul> 
                             </div>
@@ -399,6 +398,7 @@ $con = new conexion();
                                         res1 = 1;
                                         porcentaje = porcentaje + 9.09;
                                         $('#rootwizard').find('.progress-bar').css({width: porcentaje + '%'});
+										$('#tabl1').css("display", "block");
                                     }
                                 }
                             }
@@ -412,6 +412,7 @@ $con = new conexion();
                         res2 = 1;
                         porcentaje = porcentaje + 9.09;
                         $('#rootwizard').find('.progress-bar').css({width: porcentaje + '%'});
+						$('#tabl2').css("display", "block");
                     }
                 }
                 if (index == 3) {
@@ -420,6 +421,7 @@ $con = new conexion();
                         res3 = 1;
                         porcentaje = porcentaje + 9.09;
                         $('#rootwizard').find('.progress-bar').css({width: porcentaje + '%'});
+						$('#tabl3').css("display", "block");
                     }
                 }
                 if (index == 4) {
@@ -428,6 +430,7 @@ $con = new conexion();
                         res4 = 1;
                         porcentaje = porcentaje + 9.09;
                         $('#rootwizard').find('.progress-bar').css({width: porcentaje + '%'});
+						$('#tabl4').css("display", "block");
                     }
                 }
                 if (index == 5) {
@@ -436,6 +439,7 @@ $con = new conexion();
                         res5 = 1;
                         porcentaje = porcentaje + 9.09;
                         $('#rootwizard').find('.progress-bar').css({width: porcentaje + '%'});
+						$('#tabl5').css("display", "block");
                     }
                 }
                 if (index == 6) {
@@ -444,6 +448,7 @@ $con = new conexion();
                         res6 = 1;
                         porcentaje = porcentaje + 9.09;
                         $('#rootwizard').find('.progress-bar').css({width: porcentaje + '%'});
+						$('#tabl6').css("display", "block");
                     }
                 }
                 if (index == 7) {
@@ -452,6 +457,7 @@ $con = new conexion();
                         res7 = 1;
                         porcentaje = porcentaje + 9.09;
                         $('#rootwizard').find('.progress-bar').css({width: porcentaje + '%'});
+						$('#tabl7').css("display", "block");
                     }
                 }
                 if (index == 8) {
@@ -460,6 +466,7 @@ $con = new conexion();
                         res8 = 1;
                         porcentaje = porcentaje + 9.09;
                         $('#rootwizard').find('.progress-bar').css({width: porcentaje + '%'});
+						$('#tabl8').css("display", "block");
                     }
                 }
                 if (index == 9) {
@@ -468,6 +475,7 @@ $con = new conexion();
                         res9 = 1;
                         porcentaje = porcentaje + 9.09;
                         $('#rootwizard').find('.progress-bar').css({width: porcentaje + '%'});
+						$('#tabl9').css("display", "block");
                     }
                 }
                 if (index == 10) {
@@ -476,6 +484,7 @@ $con = new conexion();
                         res10 = 1;
                         porcentaje = porcentaje + 9.09;
                         $('#rootwizard').find('.progress-bar').css({width: porcentaje + '%'});
+						$('#tabl10').css("display", "block");
                     }
                 }
                 if (index == 11) {
@@ -493,7 +502,7 @@ $con = new conexion();
                 // If it's the last tab then hide the last button and show the finish instead
 //                if ($current >= $total) {
                 if (respuestas == 10) {
-                    $('#rootwizard').find('.pager .next').hide();
+                    //$('#rootwizard').find('.pager .next').hide();
                     $('#rootwizard').find('.pager .fin').show();
                     $('#rootwizard').find('.pager .fin').removeClass('disabled');
                 }

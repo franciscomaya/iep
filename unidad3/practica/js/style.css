@@ -44,6 +44,7 @@ html{
     margin: 0 0 0 8px;
     font: 0.7em sans-serif;
     background-color: #efefef;
+	box-shadow: 7px 7px 5px #888888;
 }
 #juego div {
     width: 100%;

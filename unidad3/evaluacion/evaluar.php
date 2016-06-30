@@ -70,7 +70,6 @@ if (!isset($_POST['index'])) {
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="#">Evaluación</a>
                             </div>
                             <div class="navbar-default">
                                 <div class="container">
